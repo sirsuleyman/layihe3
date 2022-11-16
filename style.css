@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400;500;700;900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.bigheadr{
+    background-color:rgb(218, 212, 212);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.headr{
+width: 1152px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 253px;
+margin-top: 15px;
+}
+
+.bank{
+width: 89px;
+height: 23px;
+margin-top: 8px;
+margin-left: -100px;
+}
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    color: gray;
+}
+
+.exit{
+    background-color: white;
+    border: none;
+    border-radius:10px;
+    width: 80px;
+    height: 40px;
+    font-weight: 800;
+    color: black;
+    margin-left: 90px;
+}
+
+h1{
+    margin-top: 120px;
+    margin-left: 285px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+p:hover{
+    text-decoration:underline ;
+    text-decoration-color: blue;
+}
+
+.exit:hover{
+    text-decoration:underline ;
+    text-decoration-color: blue;
+}
+
+.money{
+    display: flex;
+    flex-direction: row;
+
+}
+.money1{
+    margin-left: 285px;
+    margin-top: 33px;
+
+}
+
+
+.money2{
+    margin-left: 123px;
+    margin-top:33px;
+}
+
+h3{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #9F9F9F;
+}
+
+.rub1{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+.usd1{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+
+.eur1{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+
+.gbp1{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+.rub1:hover{
+    background: #833AE0;
+}
+.usd1:hover{
+    background: #833AE0;
+}
+.eur1:hover{
+    background: #833AE0;
+}
+.gbp1:hover{
+    background: #833AE0;
+}
+
+.number1{
+    width: 247px;
+    height: 102px;
+    margin-top: 20px;   
+}
+.rub2{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+.usd2{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+
+.eur2{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+
+.gbp2{
+    width: 63.81px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: white;
+    color:black;
+}
+.rub2:hover{
+    background: #833AE0;
+}
+.usd2:hover{
+    background: #833AE0;
+}
+.eur2:hover{
+    background: #833AE0;
+}
+.gbp2:hover{
+    background: #833AE0;
+}
+.number2{
+    width: 247px;
+    height: 102px;
+    margin-top: 20px;   
+}
+@media screen and (max-width:962px), (min-width:346px) {
+    
+    
+}
