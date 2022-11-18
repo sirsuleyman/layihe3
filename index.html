@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <script src="/task.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
+  <div id="navbar">
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-6 img">
+        <img src="/img/Asset 1@3x 1.png" alt="">
+      </div>
+      <div class="col-lg-8 nav-text">
+        <ul>
+          <li class="active">БАНК</li>
+          <li>БИЗНЕС</li>
+          <li>ИНВЕСТИЦИИ</li>
+          <li>СТРАХОВАНИЕ</li>
+          <li>МОБАЙЛ</li>
+          <li>ПУТЕШЕСТВИЯ</li>
+          <li>РАЗВЛЕЧЕНИЯ</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 voyti">
+        <span class="button">ВОЙТИ</span>
+      </div>
+    </div>
+  </div>
+  <div id="intro">
     <div class="container">
+      <div class="row">
+        <div class="intro-header">
+          <p class="intro-text">Конвертер валют онлайн</p>
+        </div>
+        <div id="from" class="col-lg-5 col-md-12">
+          <p>У меня есть </p>
+          <div class="card" style="width:280px">
+            <ul class="list-group d-flex flex-row ">
+              <li id="fromRub" class="list-group-item listelementfrom activefrom">RUB</li>
+              <li id="fromUsd" class="list-group-item listelementfrom">USD</li>
+              <li id="fromEur" class="list-group-item listelementfrom">EUR</li>
+              <li id="fromAzn" class="list-group-item listelementfrom">AZN</li>
+            </ul>
+          </div>
+          <div class="card  mt-4" style="width:280px;">
+            <div class="card-body">
+              <input class="fromInp" type="text">
+
+              <p class="card-text money-text-from"></p>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12" id="reverse">  <i class='bx bx-expand-horizontal'></i></div> 
+        <div id="to" class="col-lg-4 col-md-12">
+          <p>Хочу приобрести</p>
+          <div class="card" style="width:280px">
+            <ul class="list-group d-flex flex-row ">
+              <li id="toRub" class="list-group-item listelement">RUB</li>
+              <li id="toUsd" class="list-group-item listelement activeto">USD</li>
+              <li id="toEur" class="list-group-item listelement">EUR</li>
+              <li id="toAzn" class="list-group-item listelement">AZN</li>
+            </ul>
+          </div>
+          <div class="card  mt-4" style="width:280px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title money">67.6685</h5> -->
+              <input class="toInp" type="text">
+
+              <p class="card-text money-text-to"></p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/task.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="container">
         <div class="bigheadr">
         <div class="headr">
             <img class="bank" src="/img/Asset 1@3x 1.png">
@@ -30,10 +113,10 @@
         <div class="money1">
             <h3 class="h3">У меня есть </h3>
             <button class="rub1">RUB</button><button class="usd1">USD</button><button class="eur1">EUR</button><button class="gbp1">GBP</button><br>
-            <input class="number1" type="number">
+            <input class="number1" type="number" placeholder="Add the value">
         </div> 
-  
-        
+
+
         <div class="money2">
             <h3 class="h3">Хочу приобрести </h3>
             <button class="rub2">RUB</button><button class="usd2">USD</button><button class="eur2">EUR</button><button class="gbp2">GBP</button><br>
@@ -41,6 +124,4 @@
         </div>
     </div>
 </div>
-</div>
-</body>
-</html>
+</div> -->
